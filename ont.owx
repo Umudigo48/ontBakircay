@@ -1,0 +1,1987 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/umutakpolat/ontologies/2023/5/BakircayUniversity"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/umutakpolat/ontologies/2023/5/BakircayUniversity">
+    <Prefix name="" IRI="http://www.semanticweb.org/umutakpolat/ontologies/2023/5/BakircayUniversity/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="BakircayUniversity" IRI="http://www.semanticweb.org/umutakpolat/ontologies/2023/5/BakircayUniversity#"/>
+    <Declaration>
+        <Class IRI="#ATM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Akademisyen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dekan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fakulte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kafeterya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kutuphane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MezunOgrenci"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ogrenci"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtobusDuragi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otopark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecmeliDersler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SporSalonu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yemekhane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZorunluDersler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#baglidir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#baskanidir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#calisir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dersAlir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dersCalisir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dersVerir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hizmetVerir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#kayitOlur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#kiraOder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maasVerir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notAlir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notVerir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ogrencisidir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ogretir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#otobusBekler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paraCeker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paraYatirir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#parkEder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sporYapar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vakitGecirir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vardir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#yemekYer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dKodu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dOzellik"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#iAd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#iCinsiyet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#iDogumTarihi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#iSoyad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#kAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#oNot"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#oNumara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AtaturkIlkeInkılapları"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bilgisayar_Muhendisligi_Etigi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bilgisayar_Programlama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BiyomedikalMuhendisligi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cebir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dekan1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DijitalMantikTasarimi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EczacilikFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fizik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gomulu_Sistemler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HukukFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IktisadiVeIdariBilimlerFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingilizce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InsanVeToplumBilimleriFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsSagligi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kafe1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kafe2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matematik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Memur1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olasilik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Otomata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaglikBilimleriFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salon2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salon3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salon4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salon5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turk_Dili"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TıpFakultesi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Web_Tabanli_Programlama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YazilimMimariveTasarim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YazilimProjeYonetimi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yazilim_Muhendisligi_Temeller"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ATM"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Akademisyen"/>
+        <Class IRI="#Insan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dekan"/>
+        <Class IRI="#Insan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kafeterya"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kutuphane"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memur"/>
+        <Class IRI="#Insan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MezunOgrenci"/>
+        <Class IRI="#Ogrenci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ogrenci"/>
+        <Class IRI="#Insan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtobusDuragi"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otopark"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecmeliDersler"/>
+        <Class IRI="#Ders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SporSalonu"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yemekhane"/>
+        <Class IRI="#Universite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZorunluDersler"/>
+        <Class IRI="#Ders"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akademisyen"/>
+        <NamedIndividual IRI="#A9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecmeliDersler"/>
+        <NamedIndividual IRI="#AtaturkIlkeInkılapları"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATM"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Universite"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departman"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Bilgisayar_Muhendisligi_Etigi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Bilgisayar_Programlama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departman"/>
+        <NamedIndividual IRI="#BiyomedikalMuhendisligi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Cebir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dekan"/>
+        <NamedIndividual IRI="#Dekan1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecmeliDersler"/>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#DijitalMantikTasarimi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#EczacilikFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departman"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departman"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Fizik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Gomulu_Sistemler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#HukukFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#IktisadiVeIdariBilimlerFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecmeliDersler"/>
+        <NamedIndividual IRI="#Ingilizce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#InsanVeToplumBilimleriFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecmeliDersler"/>
+        <NamedIndividual IRI="#IsSagligi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kafeterya"/>
+        <NamedIndividual IRI="#Kafe1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kafeterya"/>
+        <NamedIndividual IRI="#Kafe2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Matematik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Memur"/>
+        <NamedIndividual IRI="#Memur1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ogrenci"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ogrenci"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ogrenci"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Olasilik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Otomata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#SaglikBilimleriFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SporSalonu"/>
+        <NamedIndividual IRI="#Salon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SporSalonu"/>
+        <NamedIndividual IRI="#Salon2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SporSalonu"/>
+        <NamedIndividual IRI="#Salon3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SporSalonu"/>
+        <NamedIndividual IRI="#Salon4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SporSalonu"/>
+        <NamedIndividual IRI="#Salon5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Departman"/>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecmeliDersler"/>
+        <NamedIndividual IRI="#Turk_Dili"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fakulte"/>
+        <NamedIndividual IRI="#TıpFakultesi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Web_Tabanli_Programlama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#YazilimMimariveTasarim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#YazilimProjeYonetimi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZorunluDersler"/>
+        <NamedIndividual IRI="#Yazilim_Muhendisligi_Temeller"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Salon1"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#Salon3"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#Gomulu_Sistemler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#YazilimProjeYonetimi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notVerir"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baskanidir"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notVerir"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#YazilimMimariveTasarim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Yazilim_Muhendisligi_Temeller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notVerir"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paraCeker"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#A4"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#A4"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A4"/>
+        <NamedIndividual IRI="#DijitalMantikTasarimi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#Otomata"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notVerir"/>
+        <NamedIndividual IRI="#A5"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#AtaturkIlkeInkılapları"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Bilgisayar_Muhendisligi_Etigi"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Bilgisayar_Programlama"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#BiyomedikalMuhendisligi"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Cebir"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Cebir"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Cebir"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Cebir"/>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baskanidir"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersVerir"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notVerir"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#DijitalMantikTasarimi"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#EczacilikFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Fizik"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Fizik"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Fizik"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Gomulu_Sistemler"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#HukukFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#IktisadiVeIdariBilimlerFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Ingilizce"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#InsanVeToplumBilimleriFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#IsSagligi"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#A4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#Memur1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#A4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#Memur1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Matematik"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Matematik"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Matematik"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Matematik"/>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#calisir"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersAlir"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersCalisir"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kayitOlur"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notAlir"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ogrencisidir"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paraCeker"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paraYatirir"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersAlir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersAlir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersCalisir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#DijitalGoruntuIsleme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kayitOlur"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notAlir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ogrencisidir"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersAlir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#Otomata"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersAlir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dersCalisir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kayitOlur"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#notAlir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ogrencisidir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paraCeker"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paraYatirir"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <NamedIndividual IRI="#Atm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Olasilik"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Olasilik"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Otomata"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#SaglikBilimleriFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#A4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <NamedIndividual IRI="#A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sporYapar"/>
+        <NamedIndividual IRI="#Salon4"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Turk_Dili"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#TıpFakultesi"/>
+        <NamedIndividual IRI="#BakircayUniversitesi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Web_Tabanli_Programlama"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#YazilimMimariveTasarim"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#YazilimProjeYonetimi"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#baglidir"/>
+        <NamedIndividual IRI="#Yazilim_Muhendisligi_Temeller"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#A1"/>
+        <Literal>Okan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#A1"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#A1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1985</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#A1"/>
+        <Literal>Bursa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#A2"/>
+        <Literal>Adil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#A2"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#A2"/>
+        <Literal>Alpkoçak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#A3"/>
+        <Literal>Deniz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#A3"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#A3"/>
+        <Literal>Kılınç</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#A4"/>
+        <Literal>Orhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#A4"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#A4"/>
+        <Literal>Er</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#A5"/>
+        <Literal>Nihan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#A5"/>
+        <Literal>Kadın</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#A5"/>
+        <Literal>Özbaltan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bAdi"/>
+        <NamedIndividual IRI="#BilgisayarMuhendisligi"/>
+        <Literal>Bilgisayar Muhendisligi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Bilgisayar_Muhendisligi_Etigi"/>
+        <Literal>Bilgisayar Mühendisliği Etiği</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Bilgisayar_Programlama"/>
+        <Literal>Bilgisayar Programlama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bAdi"/>
+        <NamedIndividual IRI="#BiyomedikalMuhendisligi"/>
+        <Literal>BiyomedikalMuhendisligi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Cebir"/>
+        <Literal>Cebir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1967</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <Literal>Adil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Dekan1"/>
+        <Literal>Alpkoçak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#DijitalMantikTasarimi"/>
+        <Literal>DijitalMantikTasarimi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#EczacilikFakultesi"/>
+        <Literal>Eczacilik Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bAdi"/>
+        <NamedIndividual IRI="#ElektrikElektronikMuhendisligi"/>
+        <Literal>Elektrik Elektronik Muhendisligi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bAdi"/>
+        <NamedIndividual IRI="#EndustriMuhendisligi"/>
+        <Literal>Endustri Muhendisligi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Fizik"/>
+        <Literal>Fizik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Gomulu_Sistemler"/>
+        <Literal>Gömülü Sistemler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#HukukFakultesi"/>
+        <Literal>Hukuk Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#IktisadiVeIdariBilimlerFakultesi"/>
+        <Literal>Iktisadi ve Idari Bilimler Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#InsanVeToplumBilimleriFakultesi"/>
+        <Literal>Insan ve Toplum Bilimleri Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#IsletimSistemleri"/>
+        <Literal>İşletim Sistemleri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Kafe1"/>
+        <Literal>Uçak Kafe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Kafe2"/>
+        <Literal>Lila Kafe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Matematik"/>
+        <Literal>Matematik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <Literal>Kutay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Memur1"/>
+        <Literal>Filibeli</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#MuhendislikVeMimarlikFakultesi"/>
+        <Literal>Muhendislik ve Mimarlik Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Nesne_Yonelimli_Programlama"/>
+        <Literal>Nesne Yönelimli Programlama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal>Ufuk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal>Özkan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNot"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNumara"/>
+        <NamedIndividual IRI="#Ogrenci2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180601052</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal>Kutay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal>Filibeli</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNot"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNumara"/>
+        <NamedIndividual IRI="#Ogrenci3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180601001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iAd"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal>Umut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iCinsiyet"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal>Erkek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#iSoyad"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal>Akpolat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNot"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#oNumara"/>
+        <NamedIndividual IRI="#Ogrencı1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180601050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Olasilik"/>
+        <Literal>Olasilik ve İstatistik</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Otomata"/>
+        <Literal>Hesaplama Teorisi ve Otomata</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#SaglikBilimleriFakultesi"/>
+        <Literal>SaglikBilimleriFakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Salon1"/>
+        <Literal>Tenis Kortu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Salon2"/>
+        <Literal>Açık Basket Sahasi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Salon3"/>
+        <Literal>kapali Basket Sahasi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Salon4"/>
+        <Literal>Halisaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#kAdi"/>
+        <NamedIndividual IRI="#Salon5"/>
+        <Literal>Masa Tenisi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bAdi"/>
+        <NamedIndividual IRI="#TemelBilimlerBolumu"/>
+        <Literal>Temel Bilimler Bolumu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fAdi"/>
+        <NamedIndividual IRI="#TıpFakultesi"/>
+        <Literal>Tıp Fakultesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Veritabanı_Yonetim_Sistemleri"/>
+        <Literal>Veritabanı ve Yönetim Sistemleri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Web_Tabanli_Programlama"/>
+        <Literal>Web Tabanlı Programlama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#YapayZeka"/>
+        <Literal>Yapay Zeka</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#YazilimMimariveTasarim"/>
+        <Literal>Yazılım Mimari ve Tasarım</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#YazilimProjeYonetimi"/>
+        <Literal>Yazılım Proje Yönetimi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dAdi"/>
+        <NamedIndividual IRI="#Yazilim_Muhendisligi_Temeller"/>
+        <Literal>Yazılım Mühendisliği Temelleri</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#baglidir"/>
+        <Class IRI="#Departman"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#baskanidir"/>
+        <Class IRI="#Dekan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#calisir"/>
+        <Class IRI="#Memur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dersAlir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dersCalisir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dersVerir"/>
+        <Class IRI="#Akademisyen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <Class IRI="#Kafeterya"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#kayitOlur"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#kiraOder"/>
+        <Class IRI="#Kafeterya"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maasVerir"/>
+        <Class IRI="#Universite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notAlir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notVerir"/>
+        <Class IRI="#Akademisyen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ogrencisidir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ogretir"/>
+        <Class IRI="#Akademisyen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#otobusBekler"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paraCeker"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paraYatirir"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#parkEder"/>
+        <Class IRI="#Akademisyen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#parkEder"/>
+        <Class IRI="#Dekan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#parkEder"/>
+        <Class IRI="#Memur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sporYapar"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vakitGecirir"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vardir"/>
+        <Class IRI="#Universite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#yemekYer"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#baglidir"/>
+        <Class IRI="#Fakulte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#baskanidir"/>
+        <Class IRI="#Departman"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#calisir"/>
+        <Class IRI="#Kutuphane"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#calisir"/>
+        <Class IRI="#Universite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dersAlir"/>
+        <Class IRI="#Ders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dersCalisir"/>
+        <Class IRI="#Ders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dersVerir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hizmetVerir"/>
+        <Class IRI="#Insan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#kayitOlur"/>
+        <Class IRI="#Universite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#kiraOder"/>
+        <Class IRI="#Universite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maasVerir"/>
+        <Class IRI="#Akademisyen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maasVerir"/>
+        <Class IRI="#Dekan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maasVerir"/>
+        <Class IRI="#Memur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notAlir"/>
+        <Class IRI="#Ders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notVerir"/>
+        <Class IRI="#Ogrenci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ogrencisidir"/>
+        <Class IRI="#Fakulte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ogretir"/>
+        <Class IRI="#Ders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#otobusBekler"/>
+        <Class IRI="#OtobusDuragi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paraCeker"/>
+        <Class IRI="#ATM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paraYatirir"/>
+        <Class IRI="#ATM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#parkEder"/>
+        <Class IRI="#Otopark"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sporYapar"/>
+        <Class IRI="#SporSalonu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vakitGecirir"/>
+        <Class IRI="#Kafeterya"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vardir"/>
+        <Class IRI="#Fakulte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#yemekYer"/>
+        <Class IRI="#Kafeterya"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#yemekYer"/>
+        <Class IRI="#Yemekhane"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fAdi"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bAdi"/>
+        <Class IRI="#Departman"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dAdi"/>
+        <Class IRI="#Ders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dKodu"/>
+        <Class IRI="#Ders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dOzellik"/>
+        <Class IRI="#Ders"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fAdi"/>
+        <Class IRI="#Fakulte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#iAd"/>
+        <Class IRI="#Insan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#iCinsiyet"/>
+        <Class IRI="#Insan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <Class IRI="#Insan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#iSoyad"/>
+        <Class IRI="#Insan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#oNot"/>
+        <Class IRI="#Ogrenci"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#oNumara"/>
+        <Class IRI="#Ogrenci"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#bAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dKodu"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dOzellik"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#iAd"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#iCinsiyet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#iDogumTarihi"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#iSoyad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#oNot"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#oNumara"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
